@@ -16,11 +16,11 @@
 | 찜 후 채팅 거래 시작률 | 26.32% |
 | 찜 후 재조회 집단 중 채팅 미전환 | 732건 (83.75%) |
 | 찜 후 재조회 집단 중 채팅 전환 | 142건 (16.25%) |
-| 가격 제안 가능 비율 | 미전환 13.45% / 전환 19.16% |
+| 재조회 집단의 채팅 전환율 | 가격 제안 불가능 13.45% / 가능 19.16% |
 
 - 직접 채팅은 전체 채팅의 67.52%였으며, 거래 시작률도 찜 후 채팅과 거의 같았습니다.
 - 찜한 판매글을 다시 조회해도 83.75%는 채팅으로 이어지지 않았습니다.
-- 재조회 집단에서는 `가격 제안 가능` 여부가 전환 집단에서 5.71%p 더 높았습니다.
+- 재조회 집단에서는 가격 제안 가능 판매글의 채팅 전환율이 불가능 판매글보다 5.71%p 높았습니다.
 - 로지스틱 회귀와 랜덤 포레스트의 ROC-AUC는 각각 0.5498, 0.5444였습니다. 현재 변수만으로 개인의 전환 여부를 정확히 예측하기는 어려웠습니다.
 
 ## 분석 흐름
@@ -49,7 +49,7 @@
 ```text
 carrot/
 ├── config/                 # 합성 데이터 생성 설정
-├── docs/                   # 발표 자료
+├── docs/                   # 최종 포트폴리오 PDF
 ├── generated/              # 합성 데이터와 실행 기록
 │   └── csv/                # 7개 테이블 CSV
 ├── notebooks/
@@ -57,7 +57,8 @@ carrot/
 ├── prompts/                # LLM 자산 생성 프롬프트
 ├── reports/                # 데이터 생성·검증 보고서
 ├── sql/                    # 스키마, 제약조건, 분석 View
-└── src/                    # 데이터 생성·검증·MySQL 적재 코드
+├── src/                    # 데이터 생성·검증·MySQL 적재 코드
+└── tableau/                # Tableau 대시보드용 CSV
 ```
 
 ## 실행 방법
@@ -101,13 +102,23 @@ mysql -u 사용자명 -p carrot_chat < sql/listing_funnel.sql
 jupyter notebook notebooks/DA_final.ipynb
 ```
 
+### 5. Tableau 대시보드 데이터 생성
+
+```bash
+python src/export_tableau_data.py
+```
+
+실행하면 `tableau/tableau_dashboard_data.csv`가 생성됩니다.
+
 ## 주요 파일
 
 - [최종 분석 노트북](notebooks/DA_final.ipynb)
-- [발표용 프로젝트 보고서](docs/carrot_project_report.pdf)
+- [최종 포트폴리오 PDF](docs/carrot_project_report.pdf)
 - [데이터 생성 보고서](reports/generation_report.json)
 - [분석 View SQL](sql/listing_funnel.sql)
 - [데이터 생성 파이프라인](src/run_pipeline.py)
+- [Tableau 대시보드 데이터](tableau/tableau_dashboard_data.csv)
+- [Tableau 데이터 생성 코드](src/export_tableau_data.py)
 
 ## 해석 시 유의사항
 
