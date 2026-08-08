@@ -1,0 +1,95 @@
+{
+  "executed_at": "2026-08-05T22:07:13+09:00",
+  "observation_period": {
+    "start": "2025-12-01",
+    "end": "2026-02-28"
+  },
+  "target_season": "winter",
+  "master_seed": 20260228,
+  "sub_seeds": {
+    "persona_assignment_seed": 20260311,
+    "listing_generation_seed": 20260329,
+    "exposure_seed": 20260413,
+    "behavior_seed": 20260427,
+    "anomaly_seed": 20260509
+  },
+  "target_scale": {
+    "users": 1000,
+    "listings": 1500,
+    "product_views": [
+      40000,
+      60000
+    ],
+    "favorites": [
+      4000,
+      8000
+    ],
+    "chatrooms": [
+      1000,
+      3000
+    ],
+    "transactions": [
+      300,
+      1000
+    ]
+  },
+  "actual_row_counts": {
+    "users": 1000,
+    "listings": 1500,
+    "product_views": 45367,
+    "favorites": 5519,
+    "chatrooms": 2733,
+    "transactions": 699,
+    "price_history": 2204
+  },
+  "seasonality_strength": 0.2417124874754144,
+  "season_related_listing_ratio": 0.258,
+  "configured_anomaly_rate": 0.03697712585389415,
+  "actual_unique_anomaly_row_ratio": 0.03046321710548609,
+  "llm_cache_version": "2026-02-winter-v1",
+  "llm_cache_digest": "2b8514a9ec751d09",
+  "llm_asset_sources": {
+    "personas": "codex_curated_fallback",
+    "listing_scenarios": "codex_curated_fallback",
+    "api_status": "not_requested"
+  },
+  "generation_config_version": "2.0.0",
+  "integrity_validation_passed": true,
+  "mysql_load_success": true,
+  "mysql_load_result": {
+    "success": true,
+    "status": "loaded",
+    "message": "7개 테이블 적재 완료",
+    "inserted_row_counts": {
+      "users": 1000,
+      "listings": 1500,
+      "product_views": 45367,
+      "favorites": 5519,
+      "chatrooms": 2733,
+      "transactions": 699,
+      "price_history": 2204
+    }
+  },
+  "post_generation_adjustments": [
+    {
+      "applied_at": "2026-08-06T21:46:11+09:00",
+      "type": "enforce_verified_sellers",
+      "changed_user_count": 298,
+      "verified_user_count_after": 927,
+      "unverified_seller_listing_count_after": 0,
+      "applied_to": [
+        "generated/csv/users.csv",
+        "MySQL carrot_chat.users"
+      ],
+      "database_triggers_installed": 3
+    }
+  ],
+  "assumptions": [
+    "관찰 종료 시각은 2026-02-28 23:59:59로 해석했다.",
+    "users.is_verified는 판매글 작성에 필요한 동네 인증 여부로 해석했다.",
+    "계절 관련 비율은 판매글 생성에 사용된 숨은 시나리오 플래그를 기준으로 계산했다.",
+    "관심 밖 조회는 주요·보조 관심사에 포함되지 않은 카테고리 조회로 정의했다.",
+    "이상치 비율은 7개 테이블 전체 행 중 ground truth에 등장하는 고유 행 비율이다.",
+    "분포 목표 이탈은 경고이며 PK·FK·시간 순서 오류만 적재를 차단한다."
+  ]
+}

@@ -1,0 +1,11 @@
+.env
+.venv/
+.vscode/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+tmp/
+
+# 작업 과정에서 사용한 초안 노트북은 로컬에만 보관
+notebooks/01.DA.ipynb

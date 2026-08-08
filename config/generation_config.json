@@ -1,0 +1,77 @@
+{
+  "config_version": "2.0.0",
+  "observation_start": "2025-12-01",
+  "observation_end": "2026-02-28",
+  "target_season": "winter",
+  "master_seed": 20260228,
+  "seeds": {
+    "persona_assignment_seed": 20260311,
+    "listing_generation_seed": 20260329,
+    "exposure_seed": 20260413,
+    "behavior_seed": 20260427,
+    "anomaly_seed": 20260509
+  },
+  "user_count": 1000,
+  "listing_count": 1500,
+  "view_count_range": [40000, 60000],
+  "seasonality_strength_range": [0.20, 0.28],
+  "anomaly_rate_range": [0.035, 0.050],
+  "persona_template_count": 50,
+  "listing_scenario_count": 60,
+  "categories": [
+    {"name": "디지털기기", "weight": 0.13, "winter_multiplier": 1.02, "median_price": 220000, "log_sigma": 0.85, "min_price": 5000, "max_price": 8000000},
+    {"name": "생활가전", "weight": 0.09, "winter_multiplier": 1.10, "median_price": 95000, "log_sigma": 0.80, "min_price": 3000, "max_price": 3500000},
+    {"name": "가구 및 인테리어", "weight": 0.10, "winter_multiplier": 1.05, "median_price": 70000, "log_sigma": 0.90, "min_price": 2000, "max_price": 5000000},
+    {"name": "패션", "weight": 0.12, "winter_multiplier": 1.08, "median_price": 35000, "log_sigma": 0.80, "min_price": 1000, "max_price": 3000000},
+    {"name": "뷰티", "weight": 0.06, "winter_multiplier": 1.02, "median_price": 22000, "log_sigma": 0.70, "min_price": 1000, "max_price": 1000000},
+    {"name": "스포츠 및 레저", "weight": 0.09, "winter_multiplier": 1.08, "median_price": 85000, "log_sigma": 0.95, "min_price": 3000, "max_price": 7000000},
+    {"name": "취미 및 게임", "weight": 0.10, "winter_multiplier": 1.08, "median_price": 55000, "log_sigma": 0.90, "min_price": 1000, "max_price": 5000000},
+    {"name": "도서", "weight": 0.06, "winter_multiplier": 1.04, "median_price": 12000, "log_sigma": 0.60, "min_price": 500, "max_price": 500000},
+    {"name": "유아 및 아동용품", "weight": 0.07, "winter_multiplier": 1.03, "median_price": 30000, "log_sigma": 0.85, "min_price": 1000, "max_price": 2500000},
+    {"name": "반려동물용품", "weight": 0.05, "winter_multiplier": 1.03, "median_price": 28000, "log_sigma": 0.75, "min_price": 1000, "max_price": 1500000},
+    {"name": "공구", "weight": 0.05, "winter_multiplier": 0.98, "median_price": 60000, "log_sigma": 0.90, "min_price": 2000, "max_price": 5000000},
+    {"name": "생활용품", "weight": 0.05, "winter_multiplier": 1.04, "median_price": 18000, "log_sigma": 0.75, "min_price": 500, "max_price": 1000000},
+    {"name": "기타 일반 상품", "weight": 0.03, "winter_multiplier": 1.00, "median_price": 30000, "log_sigma": 1.00, "min_price": 500, "max_price": 5000000}
+  ],
+  "regions": [
+    {"region_id": "seoul_gangnam", "weight": 0.13, "neighbors": ["seoul_songpa", "seoul_mapo", "seoul_gwanak"]},
+    {"region_id": "seoul_songpa", "weight": 0.11, "neighbors": ["seoul_gangnam", "seongnam_bundang", "seoul_gwanak"]},
+    {"region_id": "seoul_mapo", "weight": 0.10, "neighbors": ["seoul_gangnam", "seoul_eunpyeong", "goyang_ilsan"]},
+    {"region_id": "seoul_gwanak", "weight": 0.10, "neighbors": ["seoul_gangnam", "seoul_songpa", "suwon_yeongtong"]},
+    {"region_id": "seoul_eunpyeong", "weight": 0.07, "neighbors": ["seoul_mapo", "goyang_ilsan"]},
+    {"region_id": "seongnam_bundang", "weight": 0.10, "neighbors": ["seoul_songpa", "suwon_yeongtong", "yongin_suji"]},
+    {"region_id": "suwon_yeongtong", "weight": 0.10, "neighbors": ["seoul_gwanak", "seongnam_bundang", "yongin_suji"]},
+    {"region_id": "yongin_suji", "weight": 0.08, "neighbors": ["seongnam_bundang", "suwon_yeongtong"]},
+    {"region_id": "goyang_ilsan", "weight": 0.08, "neighbors": ["seoul_mapo", "seoul_eunpyeong", "incheon_bupyeong"]},
+    {"region_id": "incheon_bupyeong", "weight": 0.07, "neighbors": ["goyang_ilsan", "incheon_songdo"]},
+    {"region_id": "incheon_songdo", "weight": 0.06, "neighbors": ["incheon_bupyeong"]}
+  ],
+  "behavior_probabilities": {
+    "favorite_base_range": [0.105, 0.155],
+    "favorite_remove_range": [0.18, 0.30],
+    "refavorite_after_removal_range": [0.08, 0.16],
+    "chat_base_range": [0.025, 0.050],
+    "first_message_range": [0.90, 0.97],
+    "seller_response_range": [0.72, 0.90],
+    "transaction_base_range": [0.22, 0.36],
+    "completion_given_transaction_range": [0.48, 0.68],
+    "ended_given_transaction_range": [0.18, 0.30],
+    "price_change_range": [0.22, 0.34]
+  },
+  "sources": {
+    "search": 0.27,
+    "recommendation": 0.31,
+    "category": 0.19,
+    "favorite_list": 0.10,
+    "seller_profile": 0.06,
+    "other": 0.07
+  },
+  "llm": {
+    "use_cache": true,
+    "refresh_with_api": false,
+    "cache_version": "2026-02-winter-v1"
+  },
+  "mysql": {
+    "load_enabled": true
+  }
+}

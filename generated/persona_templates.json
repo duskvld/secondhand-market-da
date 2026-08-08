@@ -1,0 +1,1285 @@
+{
+  "asset_type": "persona_templates",
+  "version": "2026-02-winter-v1",
+  "source": "codex_curated_fallback",
+  "templates": [
+    {
+      "template_id": "persona_template_001",
+      "age_band": "10대 후반",
+      "life_stage": "고등학생",
+      "housing_type": "가족과 거주",
+      "occupation_context": "학생",
+      "primary_interests": [
+        "디지털기기",
+        "패션"
+      ],
+      "secondary_interests": [
+        "가구 및 인테리어",
+        "취미 및 게임"
+      ],
+      "current_short_need": "자취 시작",
+      "short_need_categories": [
+        "뷰티"
+      ],
+      "budget_style": "절약형",
+      "decision_style": "비교형",
+      "negotiation_style": "가격 제안 적극형",
+      "active_hours": "출근 전",
+      "travel_range": "동네 안",
+      "selling_style": "빠른 정리형",
+      "outside_interest_trigger": "가족의 부탁",
+      "exception_note": "절약을 중시하지만 희귀 취미 상품에는 높은 가격을 수용할 수 있다."
+    },
+    {
+      "template_id": "persona_template_002",
+      "age_band": "20대 초반",
+      "life_stage": "사회초년생",
+      "housing_type": "빌라",
+      "occupation_context": "재택근무",
+      "primary_interests": [
+        "생활가전"
+      ],
+      "secondary_interests": [
+        "반려동물용품"
+      ],
+      "current_short_need": "고장 난 물건 교체",
+      "short_need_categories": [
+        "디지털기기"
+      ],
+      "budget_style": "품질 우선형",
+      "decision_style": "후기 탐색형",
+      "negotiation_style": "묶음 협상형",
+      "active_hours": "시간 불규칙",
+      "travel_range": "광역 이동 가능",
+      "selling_style": "설명 충실형",
+      "outside_interest_trigger": "일시적인 관심 변화",
+      "exception_note": "협상을 선호하지만 급한 구매에서는 제시 가격을 그대로 받아들인다."
+    },
+    {
+      "template_id": "persona_template_003",
+      "age_band": "20대 후반",
+      "life_stage": "영유아 양육",
+      "housing_type": "오피스텔",
+      "occupation_context": "자영업",
+      "primary_interests": [
+        "가구 및 인테리어"
+      ],
+      "secondary_interests": [
+        "패션"
+      ],
+      "current_short_need": "단순 호기심",
+      "short_need_categories": [
+        "반려동물용품"
+      ],
+      "budget_style": "상황별 유동형",
+      "decision_style": "경험 의존형",
+      "negotiation_style": "필요할 때만 제안",
+      "active_hours": "주말 중심",
+      "travel_range": "인접 지역",
+      "selling_style": "가격 유지형",
+      "outside_interest_trigger": "새 취미 체험",
+      "exception_note": "관심 카테고리라도 판매글 신뢰가 낮으면 아무 행동 없이 떠난다."
+    },
+    {
+      "template_id": "persona_template_004",
+      "age_band": "30대",
+      "life_stage": "은퇴 후 생활",
+      "housing_type": "기숙사",
+      "occupation_context": "사무직",
+      "primary_interests": [
+        "패션"
+      ],
+      "secondary_interests": [
+        "공구",
+        "디지털기기"
+      ],
+      "current_short_need": "취미 시작",
+      "short_need_categories": [
+        "스포츠 및 레저"
+      ],
+      "budget_style": "균형형",
+      "decision_style": "질문 확인형",
+      "negotiation_style": "거래 편의 우선형",
+      "active_hours": "심야",
+      "travel_range": "택배 선호",
+      "selling_style": "협상 가능형",
+      "outside_interest_trigger": "이사 중 예상 밖 필요",
+      "exception_note": "충동적으로 조회해도 실제 구매 전에는 여러 번 다시 확인한다."
+    },
+    {
+      "template_id": "persona_template_005",
+      "age_band": "40대",
+      "life_stage": "취업 준비",
+      "housing_type": "공유주거",
+      "occupation_context": "구직 중",
+      "primary_interests": [
+        "뷰티",
+        "공구"
+      ],
+      "secondary_interests": [
+        "뷰티"
+      ],
+      "current_short_need": "급한 행사 준비",
+      "short_need_categories": [
+        "생활가전"
+      ],
+      "budget_style": "한정 예산형",
+      "decision_style": "충동형",
+      "negotiation_style": "정가 수용형",
+      "active_hours": "저녁",
+      "travel_range": "대중교통 30분",
+      "selling_style": "가끔 판매",
+      "outside_interest_trigger": "학교·직장 필요",
+      "exception_note": "온라인 활동은 적지만 주말에 짧게 많은 상품을 탐색한다."
+    },
+    {
+      "template_id": "persona_template_006",
+      "age_band": "50대 이상",
+      "life_stage": "신혼 생활",
+      "housing_type": "아파트",
+      "occupation_context": "현장직",
+      "primary_interests": [
+        "스포츠 및 레저"
+      ],
+      "secondary_interests": [
+        "생활용품"
+      ],
+      "current_short_need": "입학 준비",
+      "short_need_categories": [
+        "공구"
+      ],
+      "budget_style": "절약형",
+      "decision_style": "신중형",
+      "negotiation_style": "가격 제안 적극형",
+      "active_hours": "점심시간",
+      "travel_range": "동네 안",
+      "selling_style": "묶음 정리형",
+      "outside_interest_trigger": "친구의 부탁",
+      "exception_note": "주요 관심사와 무관한 상품도 선물 목적이면 오래 비교한다."
+    },
+    {
+      "template_id": "persona_template_007",
+      "age_band": "10대 후반",
+      "life_stage": "이직 준비",
+      "housing_type": "원룸",
+      "occupation_context": "교대 근무",
+      "primary_interests": [
+        "취미 및 게임"
+      ],
+      "secondary_interests": [
+        "스포츠 및 레저",
+        "도서"
+      ],
+      "current_short_need": "가족 부탁",
+      "short_need_categories": [
+        "취미 및 게임"
+      ],
+      "budget_style": "품질 우선형",
+      "decision_style": "비교형",
+      "negotiation_style": "묶음 협상형",
+      "active_hours": "출근 전",
+      "travel_range": "광역 이동 가능",
+      "selling_style": "빠른 정리형",
+      "outside_interest_trigger": "동네에서 가까워 확인",
+      "exception_note": "이동 범위가 좁지만 꼭 필요한 물건이면 먼 지역도 고려한다."
+    },
+    {
+      "template_id": "persona_template_008",
+      "age_band": "20대 초반",
+      "life_stage": "대학생",
+      "housing_type": "가족과 거주",
+      "occupation_context": "은퇴 생활",
+      "primary_interests": [
+        "도서"
+      ],
+      "secondary_interests": [
+        "기타 일반 상품"
+      ],
+      "current_short_need": "이사 준비",
+      "short_need_categories": [
+        "가구 및 인테리어"
+      ],
+      "budget_style": "상황별 유동형",
+      "decision_style": "후기 탐색형",
+      "negotiation_style": "필요할 때만 제안",
+      "active_hours": "시간 불규칙",
+      "travel_range": "인접 지역",
+      "selling_style": "설명 충실형",
+      "outside_interest_trigger": "선물 구매",
+      "exception_note": "평소 중고 구매가 적어도 고장 교체 상황에서는 즉시 탐색한다."
+    },
+    {
+      "template_id": "persona_template_009",
+      "age_band": "20대 후반",
+      "life_stage": "1인 자취",
+      "housing_type": "빌라",
+      "occupation_context": "육아 중심",
+      "primary_interests": [
+        "유아 및 아동용품",
+        "뷰티"
+      ],
+      "secondary_interests": [
+        "취미 및 게임"
+      ],
+      "current_short_need": "연말 선물",
+      "short_need_categories": [
+        "생활용품"
+      ],
+      "budget_style": "균형형",
+      "decision_style": "경험 의존형",
+      "negotiation_style": "거래 편의 우선형",
+      "active_hours": "주말 중심",
+      "travel_range": "택배 선호",
+      "selling_style": "가격 유지형",
+      "outside_interest_trigger": "단순 구경",
+      "exception_note": "절약을 중시하지만 희귀 취미 상품에는 높은 가격을 수용할 수 있다."
+    },
+    {
+      "template_id": "persona_template_010",
+      "age_band": "30대",
+      "life_stage": "학령기 자녀 양육",
+      "housing_type": "오피스텔",
+      "occupation_context": "프리랜서",
+      "primary_interests": [
+        "반려동물용품"
+      ],
+      "secondary_interests": [
+        "디지털기기",
+        "생활가전"
+      ],
+      "current_short_need": "생활비 마련을 위한 정리",
+      "short_need_categories": [
+        "도서"
+      ],
+      "budget_style": "한정 예산형",
+      "decision_style": "질문 확인형",
+      "negotiation_style": "정가 수용형",
+      "active_hours": "심야",
+      "travel_range": "대중교통 30분",
+      "selling_style": "협상 가능형",
+      "outside_interest_trigger": "제품 고장",
+      "exception_note": "협상을 선호하지만 급한 구매에서는 제시 가격을 그대로 받아들인다."
+    },
+    {
+      "template_id": "persona_template_011",
+      "age_band": "40대",
+      "life_stage": "고등학생",
+      "housing_type": "기숙사",
+      "occupation_context": "학생",
+      "primary_interests": [
+        "공구"
+      ],
+      "secondary_interests": [
+        "도서"
+      ],
+      "current_short_need": "새 직장 준비",
+      "short_need_categories": [
+        "패션"
+      ],
+      "budget_style": "절약형",
+      "decision_style": "충동형",
+      "negotiation_style": "가격 제안 적극형",
+      "active_hours": "저녁",
+      "travel_range": "동네 안",
+      "selling_style": "가끔 판매",
+      "outside_interest_trigger": "추천 피드 우연 노출",
+      "exception_note": "관심 카테고리라도 판매글 신뢰가 낮으면 아무 행동 없이 떠난다."
+    },
+    {
+      "template_id": "persona_template_012",
+      "age_band": "50대 이상",
+      "life_stage": "사회초년생",
+      "housing_type": "공유주거",
+      "occupation_context": "재택근무",
+      "primary_interests": [
+        "생활용품"
+      ],
+      "secondary_interests": [
+        "생활가전"
+      ],
+      "current_short_need": "겨울 생활 준비",
+      "short_need_categories": [
+        "기타 일반 상품"
+      ],
+      "budget_style": "품질 우선형",
+      "decision_style": "신중형",
+      "negotiation_style": "묶음 협상형",
+      "active_hours": "점심시간",
+      "travel_range": "광역 이동 가능",
+      "selling_style": "묶음 정리형",
+      "outside_interest_trigger": "가격이 매우 저렴해 확인",
+      "exception_note": "충동적으로 조회해도 실제 구매 전에는 여러 번 다시 확인한다."
+    },
+    {
+      "template_id": "persona_template_013",
+      "age_band": "10대 후반",
+      "life_stage": "영유아 양육",
+      "housing_type": "아파트",
+      "occupation_context": "자영업",
+      "primary_interests": [
+        "기타 일반 상품",
+        "생활용품"
+      ],
+      "secondary_interests": [
+        "유아 및 아동용품"
+      ],
+      "current_short_need": "자취 시작",
+      "short_need_categories": [
+        "유아 및 아동용품"
+      ],
+      "budget_style": "상황별 유동형",
+      "decision_style": "비교형",
+      "negotiation_style": "필요할 때만 제안",
+      "active_hours": "출근 전",
+      "travel_range": "인접 지역",
+      "selling_style": "빠른 정리형",
+      "outside_interest_trigger": "가족의 부탁",
+      "exception_note": "온라인 활동은 적지만 주말에 짧게 많은 상품을 탐색한다."
+    },
+    {
+      "template_id": "persona_template_014",
+      "age_band": "20대 초반",
+      "life_stage": "은퇴 후 생활",
+      "housing_type": "원룸",
+      "occupation_context": "사무직",
+      "primary_interests": [
+        "디지털기기"
+      ],
+      "secondary_interests": [
+        "가구 및 인테리어"
+      ],
+      "current_short_need": "고장 난 물건 교체",
+      "short_need_categories": [
+        "뷰티"
+      ],
+      "budget_style": "균형형",
+      "decision_style": "후기 탐색형",
+      "negotiation_style": "거래 편의 우선형",
+      "active_hours": "시간 불규칙",
+      "travel_range": "택배 선호",
+      "selling_style": "설명 충실형",
+      "outside_interest_trigger": "일시적인 관심 변화",
+      "exception_note": "주요 관심사와 무관한 상품도 선물 목적이면 오래 비교한다."
+    },
+    {
+      "template_id": "persona_template_015",
+      "age_band": "20대 후반",
+      "life_stage": "취업 준비",
+      "housing_type": "가족과 거주",
+      "occupation_context": "구직 중",
+      "primary_interests": [
+        "생활가전"
+      ],
+      "secondary_interests": [
+        "반려동물용품"
+      ],
+      "current_short_need": "단순 호기심",
+      "short_need_categories": [
+        "디지털기기"
+      ],
+      "budget_style": "한정 예산형",
+      "decision_style": "경험 의존형",
+      "negotiation_style": "정가 수용형",
+      "active_hours": "주말 중심",
+      "travel_range": "대중교통 30분",
+      "selling_style": "가격 유지형",
+      "outside_interest_trigger": "새 취미 체험",
+      "exception_note": "이동 범위가 좁지만 꼭 필요한 물건이면 먼 지역도 고려한다."
+    },
+    {
+      "template_id": "persona_template_016",
+      "age_band": "30대",
+      "life_stage": "신혼 생활",
+      "housing_type": "빌라",
+      "occupation_context": "현장직",
+      "primary_interests": [
+        "가구 및 인테리어"
+      ],
+      "secondary_interests": [
+        "패션",
+        "가구 및 인테리어"
+      ],
+      "current_short_need": "취미 시작",
+      "short_need_categories": [
+        "반려동물용품"
+      ],
+      "budget_style": "절약형",
+      "decision_style": "질문 확인형",
+      "negotiation_style": "가격 제안 적극형",
+      "active_hours": "심야",
+      "travel_range": "동네 안",
+      "selling_style": "협상 가능형",
+      "outside_interest_trigger": "이사 중 예상 밖 필요",
+      "exception_note": "평소 중고 구매가 적어도 고장 교체 상황에서는 즉시 탐색한다."
+    },
+    {
+      "template_id": "persona_template_017",
+      "age_band": "40대",
+      "life_stage": "이직 준비",
+      "housing_type": "오피스텔",
+      "occupation_context": "교대 근무",
+      "primary_interests": [
+        "패션",
+        "스포츠 및 레저"
+      ],
+      "secondary_interests": [
+        "공구"
+      ],
+      "current_short_need": "급한 행사 준비",
+      "short_need_categories": [
+        "스포츠 및 레저"
+      ],
+      "budget_style": "품질 우선형",
+      "decision_style": "충동형",
+      "negotiation_style": "묶음 협상형",
+      "active_hours": "저녁",
+      "travel_range": "광역 이동 가능",
+      "selling_style": "가끔 판매",
+      "outside_interest_trigger": "학교·직장 필요",
+      "exception_note": "절약을 중시하지만 희귀 취미 상품에는 높은 가격을 수용할 수 있다."
+    },
+    {
+      "template_id": "persona_template_018",
+      "age_band": "50대 이상",
+      "life_stage": "대학생",
+      "housing_type": "기숙사",
+      "occupation_context": "은퇴 생활",
+      "primary_interests": [
+        "뷰티"
+      ],
+      "secondary_interests": [
+        "뷰티"
+      ],
+      "current_short_need": "입학 준비",
+      "short_need_categories": [
+        "생활가전"
+      ],
+      "budget_style": "상황별 유동형",
+      "decision_style": "신중형",
+      "negotiation_style": "필요할 때만 제안",
+      "active_hours": "점심시간",
+      "travel_range": "인접 지역",
+      "selling_style": "묶음 정리형",
+      "outside_interest_trigger": "친구의 부탁",
+      "exception_note": "협상을 선호하지만 급한 구매에서는 제시 가격을 그대로 받아들인다."
+    },
+    {
+      "template_id": "persona_template_019",
+      "age_band": "10대 후반",
+      "life_stage": "1인 자취",
+      "housing_type": "공유주거",
+      "occupation_context": "육아 중심",
+      "primary_interests": [
+        "스포츠 및 레저"
+      ],
+      "secondary_interests": [
+        "생활용품",
+        "반려동물용품"
+      ],
+      "current_short_need": "가족 부탁",
+      "short_need_categories": [
+        "공구"
+      ],
+      "budget_style": "균형형",
+      "decision_style": "비교형",
+      "negotiation_style": "거래 편의 우선형",
+      "active_hours": "출근 전",
+      "travel_range": "택배 선호",
+      "selling_style": "빠른 정리형",
+      "outside_interest_trigger": "동네에서 가까워 확인",
+      "exception_note": "관심 카테고리라도 판매글 신뢰가 낮으면 아무 행동 없이 떠난다."
+    },
+    {
+      "template_id": "persona_template_020",
+      "age_band": "20대 초반",
+      "life_stage": "학령기 자녀 양육",
+      "housing_type": "아파트",
+      "occupation_context": "프리랜서",
+      "primary_interests": [
+        "취미 및 게임"
+      ],
+      "secondary_interests": [
+        "스포츠 및 레저"
+      ],
+      "current_short_need": "이사 준비",
+      "short_need_categories": [
+        "취미 및 게임"
+      ],
+      "budget_style": "한정 예산형",
+      "decision_style": "후기 탐색형",
+      "negotiation_style": "정가 수용형",
+      "active_hours": "시간 불규칙",
+      "travel_range": "대중교통 30분",
+      "selling_style": "설명 충실형",
+      "outside_interest_trigger": "선물 구매",
+      "exception_note": "충동적으로 조회해도 실제 구매 전에는 여러 번 다시 확인한다."
+    },
+    {
+      "template_id": "persona_template_021",
+      "age_band": "20대 후반",
+      "life_stage": "고등학생",
+      "housing_type": "원룸",
+      "occupation_context": "학생",
+      "primary_interests": [
+        "도서",
+        "기타 일반 상품"
+      ],
+      "secondary_interests": [
+        "기타 일반 상품"
+      ],
+      "current_short_need": "연말 선물",
+      "short_need_categories": [
+        "가구 및 인테리어"
+      ],
+      "budget_style": "절약형",
+      "decision_style": "경험 의존형",
+      "negotiation_style": "가격 제안 적극형",
+      "active_hours": "주말 중심",
+      "travel_range": "동네 안",
+      "selling_style": "가격 유지형",
+      "outside_interest_trigger": "단순 구경",
+      "exception_note": "온라인 활동은 적지만 주말에 짧게 많은 상품을 탐색한다."
+    },
+    {
+      "template_id": "persona_template_022",
+      "age_band": "30대",
+      "life_stage": "사회초년생",
+      "housing_type": "가족과 거주",
+      "occupation_context": "재택근무",
+      "primary_interests": [
+        "유아 및 아동용품"
+      ],
+      "secondary_interests": [
+        "취미 및 게임",
+        "패션"
+      ],
+      "current_short_need": "생활비 마련을 위한 정리",
+      "short_need_categories": [
+        "생활용품"
+      ],
+      "budget_style": "품질 우선형",
+      "decision_style": "질문 확인형",
+      "negotiation_style": "묶음 협상형",
+      "active_hours": "심야",
+      "travel_range": "광역 이동 가능",
+      "selling_style": "협상 가능형",
+      "outside_interest_trigger": "제품 고장",
+      "exception_note": "주요 관심사와 무관한 상품도 선물 목적이면 오래 비교한다."
+    },
+    {
+      "template_id": "persona_template_023",
+      "age_band": "40대",
+      "life_stage": "영유아 양육",
+      "housing_type": "빌라",
+      "occupation_context": "자영업",
+      "primary_interests": [
+        "반려동물용품"
+      ],
+      "secondary_interests": [
+        "디지털기기"
+      ],
+      "current_short_need": "새 직장 준비",
+      "short_need_categories": [
+        "도서"
+      ],
+      "budget_style": "상황별 유동형",
+      "decision_style": "충동형",
+      "negotiation_style": "필요할 때만 제안",
+      "active_hours": "저녁",
+      "travel_range": "인접 지역",
+      "selling_style": "가끔 판매",
+      "outside_interest_trigger": "추천 피드 우연 노출",
+      "exception_note": "이동 범위가 좁지만 꼭 필요한 물건이면 먼 지역도 고려한다."
+    },
+    {
+      "template_id": "persona_template_024",
+      "age_band": "50대 이상",
+      "life_stage": "은퇴 후 생활",
+      "housing_type": "오피스텔",
+      "occupation_context": "사무직",
+      "primary_interests": [
+        "공구"
+      ],
+      "secondary_interests": [
+        "도서"
+      ],
+      "current_short_need": "겨울 생활 준비",
+      "short_need_categories": [
+        "패션"
+      ],
+      "budget_style": "균형형",
+      "decision_style": "신중형",
+      "negotiation_style": "거래 편의 우선형",
+      "active_hours": "점심시간",
+      "travel_range": "택배 선호",
+      "selling_style": "묶음 정리형",
+      "outside_interest_trigger": "가격이 매우 저렴해 확인",
+      "exception_note": "평소 중고 구매가 적어도 고장 교체 상황에서는 즉시 탐색한다."
+    },
+    {
+      "template_id": "persona_template_025",
+      "age_band": "10대 후반",
+      "life_stage": "취업 준비",
+      "housing_type": "기숙사",
+      "occupation_context": "구직 중",
+      "primary_interests": [
+        "생활용품",
+        "취미 및 게임"
+      ],
+      "secondary_interests": [
+        "생활가전",
+        "공구"
+      ],
+      "current_short_need": "자취 시작",
+      "short_need_categories": [
+        "기타 일반 상품"
+      ],
+      "budget_style": "한정 예산형",
+      "decision_style": "비교형",
+      "negotiation_style": "정가 수용형",
+      "active_hours": "출근 전",
+      "travel_range": "대중교통 30분",
+      "selling_style": "빠른 정리형",
+      "outside_interest_trigger": "가족의 부탁",
+      "exception_note": "절약을 중시하지만 희귀 취미 상품에는 높은 가격을 수용할 수 있다."
+    },
+    {
+      "template_id": "persona_template_026",
+      "age_band": "20대 초반",
+      "life_stage": "신혼 생활",
+      "housing_type": "공유주거",
+      "occupation_context": "현장직",
+      "primary_interests": [
+        "기타 일반 상품"
+      ],
+      "secondary_interests": [
+        "유아 및 아동용품"
+      ],
+      "current_short_need": "고장 난 물건 교체",
+      "short_need_categories": [
+        "유아 및 아동용품"
+      ],
+      "budget_style": "절약형",
+      "decision_style": "후기 탐색형",
+      "negotiation_style": "가격 제안 적극형",
+      "active_hours": "시간 불규칙",
+      "travel_range": "동네 안",
+      "selling_style": "설명 충실형",
+      "outside_interest_trigger": "일시적인 관심 변화",
+      "exception_note": "협상을 선호하지만 급한 구매에서는 제시 가격을 그대로 받아들인다."
+    },
+    {
+      "template_id": "persona_template_027",
+      "age_band": "20대 후반",
+      "life_stage": "이직 준비",
+      "housing_type": "아파트",
+      "occupation_context": "교대 근무",
+      "primary_interests": [
+        "디지털기기"
+      ],
+      "secondary_interests": [
+        "가구 및 인테리어"
+      ],
+      "current_short_need": "단순 호기심",
+      "short_need_categories": [
+        "뷰티"
+      ],
+      "budget_style": "품질 우선형",
+      "decision_style": "경험 의존형",
+      "negotiation_style": "묶음 협상형",
+      "active_hours": "주말 중심",
+      "travel_range": "광역 이동 가능",
+      "selling_style": "가격 유지형",
+      "outside_interest_trigger": "새 취미 체험",
+      "exception_note": "관심 카테고리라도 판매글 신뢰가 낮으면 아무 행동 없이 떠난다."
+    },
+    {
+      "template_id": "persona_template_028",
+      "age_band": "30대",
+      "life_stage": "대학생",
+      "housing_type": "원룸",
+      "occupation_context": "은퇴 생활",
+      "primary_interests": [
+        "생활가전"
+      ],
+      "secondary_interests": [
+        "반려동물용품",
+        "뷰티"
+      ],
+      "current_short_need": "취미 시작",
+      "short_need_categories": [
+        "디지털기기"
+      ],
+      "budget_style": "상황별 유동형",
+      "decision_style": "질문 확인형",
+      "negotiation_style": "필요할 때만 제안",
+      "active_hours": "심야",
+      "travel_range": "인접 지역",
+      "selling_style": "협상 가능형",
+      "outside_interest_trigger": "이사 중 예상 밖 필요",
+      "exception_note": "충동적으로 조회해도 실제 구매 전에는 여러 번 다시 확인한다."
+    },
+    {
+      "template_id": "persona_template_029",
+      "age_band": "40대",
+      "life_stage": "1인 자취",
+      "housing_type": "가족과 거주",
+      "occupation_context": "육아 중심",
+      "primary_interests": [
+        "가구 및 인테리어",
+        "디지털기기"
+      ],
+      "secondary_interests": [
+        "패션"
+      ],
+      "current_short_need": "급한 행사 준비",
+      "short_need_categories": [
+        "반려동물용품"
+      ],
+      "budget_style": "균형형",
+      "decision_style": "충동형",
+      "negotiation_style": "거래 편의 우선형",
+      "active_hours": "저녁",
+      "travel_range": "택배 선호",
+      "selling_style": "가끔 판매",
+      "outside_interest_trigger": "학교·직장 필요",
+      "exception_note": "온라인 활동은 적지만 주말에 짧게 많은 상품을 탐색한다."
+    },
+    {
+      "template_id": "persona_template_030",
+      "age_band": "50대 이상",
+      "life_stage": "학령기 자녀 양육",
+      "housing_type": "빌라",
+      "occupation_context": "프리랜서",
+      "primary_interests": [
+        "패션"
+      ],
+      "secondary_interests": [
+        "공구"
+      ],
+      "current_short_need": "입학 준비",
+      "short_need_categories": [
+        "스포츠 및 레저"
+      ],
+      "budget_style": "한정 예산형",
+      "decision_style": "신중형",
+      "negotiation_style": "정가 수용형",
+      "active_hours": "점심시간",
+      "travel_range": "대중교통 30분",
+      "selling_style": "묶음 정리형",
+      "outside_interest_trigger": "친구의 부탁",
+      "exception_note": "주요 관심사와 무관한 상품도 선물 목적이면 오래 비교한다."
+    },
+    {
+      "template_id": "persona_template_031",
+      "age_band": "10대 후반",
+      "life_stage": "고등학생",
+      "housing_type": "오피스텔",
+      "occupation_context": "학생",
+      "primary_interests": [
+        "뷰티"
+      ],
+      "secondary_interests": [
+        "뷰티",
+        "생활용품"
+      ],
+      "current_short_need": "가족 부탁",
+      "short_need_categories": [
+        "생활가전"
+      ],
+      "budget_style": "절약형",
+      "decision_style": "비교형",
+      "negotiation_style": "가격 제안 적극형",
+      "active_hours": "출근 전",
+      "travel_range": "동네 안",
+      "selling_style": "빠른 정리형",
+      "outside_interest_trigger": "동네에서 가까워 확인",
+      "exception_note": "이동 범위가 좁지만 꼭 필요한 물건이면 먼 지역도 고려한다."
+    },
+    {
+      "template_id": "persona_template_032",
+      "age_band": "20대 초반",
+      "life_stage": "사회초년생",
+      "housing_type": "기숙사",
+      "occupation_context": "재택근무",
+      "primary_interests": [
+        "스포츠 및 레저"
+      ],
+      "secondary_interests": [
+        "생활용품"
+      ],
+      "current_short_need": "이사 준비",
+      "short_need_categories": [
+        "공구"
+      ],
+      "budget_style": "품질 우선형",
+      "decision_style": "후기 탐색형",
+      "negotiation_style": "묶음 협상형",
+      "active_hours": "시간 불규칙",
+      "travel_range": "광역 이동 가능",
+      "selling_style": "설명 충실형",
+      "outside_interest_trigger": "선물 구매",
+      "exception_note": "평소 중고 구매가 적어도 고장 교체 상황에서는 즉시 탐색한다."
+    },
+    {
+      "template_id": "persona_template_033",
+      "age_band": "20대 후반",
+      "life_stage": "영유아 양육",
+      "housing_type": "공유주거",
+      "occupation_context": "자영업",
+      "primary_interests": [
+        "취미 및 게임",
+        "도서"
+      ],
+      "secondary_interests": [
+        "스포츠 및 레저"
+      ],
+      "current_short_need": "연말 선물",
+      "short_need_categories": [
+        "취미 및 게임"
+      ],
+      "budget_style": "상황별 유동형",
+      "decision_style": "경험 의존형",
+      "negotiation_style": "필요할 때만 제안",
+      "active_hours": "주말 중심",
+      "travel_range": "인접 지역",
+      "selling_style": "가격 유지형",
+      "outside_interest_trigger": "단순 구경",
+      "exception_note": "절약을 중시하지만 희귀 취미 상품에는 높은 가격을 수용할 수 있다."
+    },
+    {
+      "template_id": "persona_template_034",
+      "age_band": "30대",
+      "life_stage": "은퇴 후 생활",
+      "housing_type": "아파트",
+      "occupation_context": "사무직",
+      "primary_interests": [
+        "도서"
+      ],
+      "secondary_interests": [
+        "기타 일반 상품",
+        "스포츠 및 레저"
+      ],
+      "current_short_need": "생활비 마련을 위한 정리",
+      "short_need_categories": [
+        "가구 및 인테리어"
+      ],
+      "budget_style": "균형형",
+      "decision_style": "질문 확인형",
+      "negotiation_style": "거래 편의 우선형",
+      "active_hours": "심야",
+      "travel_range": "택배 선호",
+      "selling_style": "협상 가능형",
+      "outside_interest_trigger": "제품 고장",
+      "exception_note": "협상을 선호하지만 급한 구매에서는 제시 가격을 그대로 받아들인다."
+    },
+    {
+      "template_id": "persona_template_035",
+      "age_band": "40대",
+      "life_stage": "취업 준비",
+      "housing_type": "원룸",
+      "occupation_context": "구직 중",
+      "primary_interests": [
+        "유아 및 아동용품"
+      ],
+      "secondary_interests": [
+        "취미 및 게임"
+      ],
+      "current_short_need": "새 직장 준비",
+      "short_need_categories": [
+        "생활용품"
+      ],
+      "budget_style": "한정 예산형",
+      "decision_style": "충동형",
+      "negotiation_style": "정가 수용형",
+      "active_hours": "저녁",
+      "travel_range": "대중교통 30분",
+      "selling_style": "가끔 판매",
+      "outside_interest_trigger": "추천 피드 우연 노출",
+      "exception_note": "관심 카테고리라도 판매글 신뢰가 낮으면 아무 행동 없이 떠난다."
+    },
+    {
+      "template_id": "persona_template_036",
+      "age_band": "50대 이상",
+      "life_stage": "신혼 생활",
+      "housing_type": "가족과 거주",
+      "occupation_context": "현장직",
+      "primary_interests": [
+        "반려동물용품"
+      ],
+      "secondary_interests": [
+        "디지털기기"
+      ],
+      "current_short_need": "겨울 생활 준비",
+      "short_need_categories": [
+        "도서"
+      ],
+      "budget_style": "절약형",
+      "decision_style": "신중형",
+      "negotiation_style": "가격 제안 적극형",
+      "active_hours": "점심시간",
+      "travel_range": "동네 안",
+      "selling_style": "묶음 정리형",
+      "outside_interest_trigger": "가격이 매우 저렴해 확인",
+      "exception_note": "충동적으로 조회해도 실제 구매 전에는 여러 번 다시 확인한다."
+    },
+    {
+      "template_id": "persona_template_037",
+      "age_band": "10대 후반",
+      "life_stage": "이직 준비",
+      "housing_type": "빌라",
+      "occupation_context": "교대 근무",
+      "primary_interests": [
+        "공구",
+        "생활가전"
+      ],
+      "secondary_interests": [
+        "도서",
+        "기타 일반 상품"
+      ],
+      "current_short_need": "자취 시작",
+      "short_need_categories": [
+        "패션"
+      ],
+      "budget_style": "품질 우선형",
+      "decision_style": "비교형",
+      "negotiation_style": "묶음 협상형",
+      "active_hours": "출근 전",
+      "travel_range": "광역 이동 가능",
+      "selling_style": "빠른 정리형",
+      "outside_interest_trigger": "가족의 부탁",
+      "exception_note": "온라인 활동은 적지만 주말에 짧게 많은 상품을 탐색한다."
+    },
+    {
+      "template_id": "persona_template_038",
+      "age_band": "20대 초반",
+      "life_stage": "대학생",
+      "housing_type": "오피스텔",
+      "occupation_context": "은퇴 생활",
+      "primary_interests": [
+        "생활용품"
+      ],
+      "secondary_interests": [
+        "생활가전"
+      ],
+      "current_short_need": "고장 난 물건 교체",
+      "short_need_categories": [
+        "기타 일반 상품"
+      ],
+      "budget_style": "상황별 유동형",
+      "decision_style": "후기 탐색형",
+      "negotiation_style": "필요할 때만 제안",
+      "active_hours": "시간 불규칙",
+      "travel_range": "인접 지역",
+      "selling_style": "설명 충실형",
+      "outside_interest_trigger": "일시적인 관심 변화",
+      "exception_note": "주요 관심사와 무관한 상품도 선물 목적이면 오래 비교한다."
+    },
+    {
+      "template_id": "persona_template_039",
+      "age_band": "20대 후반",
+      "life_stage": "1인 자취",
+      "housing_type": "기숙사",
+      "occupation_context": "육아 중심",
+      "primary_interests": [
+        "기타 일반 상품"
+      ],
+      "secondary_interests": [
+        "유아 및 아동용품"
+      ],
+      "current_short_need": "단순 호기심",
+      "short_need_categories": [
+        "유아 및 아동용품"
+      ],
+      "budget_style": "균형형",
+      "decision_style": "경험 의존형",
+      "negotiation_style": "거래 편의 우선형",
+      "active_hours": "주말 중심",
+      "travel_range": "택배 선호",
+      "selling_style": "가격 유지형",
+      "outside_interest_trigger": "새 취미 체험",
+      "exception_note": "이동 범위가 좁지만 꼭 필요한 물건이면 먼 지역도 고려한다."
+    },
+    {
+      "template_id": "persona_template_040",
+      "age_band": "30대",
+      "life_stage": "학령기 자녀 양육",
+      "housing_type": "공유주거",
+      "occupation_context": "프리랜서",
+      "primary_interests": [
+        "디지털기기"
+      ],
+      "secondary_interests": [
+        "가구 및 인테리어",
+        "취미 및 게임"
+      ],
+      "current_short_need": "취미 시작",
+      "short_need_categories": [
+        "뷰티"
+      ],
+      "budget_style": "한정 예산형",
+      "decision_style": "질문 확인형",
+      "negotiation_style": "정가 수용형",
+      "active_hours": "심야",
+      "travel_range": "대중교통 30분",
+      "selling_style": "협상 가능형",
+      "outside_interest_trigger": "이사 중 예상 밖 필요",
+      "exception_note": "평소 중고 구매가 적어도 고장 교체 상황에서는 즉시 탐색한다."
+    },
+    {
+      "template_id": "persona_template_041",
+      "age_band": "40대",
+      "life_stage": "고등학생",
+      "housing_type": "아파트",
+      "occupation_context": "학생",
+      "primary_interests": [
+        "생활가전",
+        "유아 및 아동용품"
+      ],
+      "secondary_interests": [
+        "반려동물용품"
+      ],
+      "current_short_need": "급한 행사 준비",
+      "short_need_categories": [
+        "디지털기기"
+      ],
+      "budget_style": "절약형",
+      "decision_style": "충동형",
+      "negotiation_style": "가격 제안 적극형",
+      "active_hours": "저녁",
+      "travel_range": "동네 안",
+      "selling_style": "가끔 판매",
+      "outside_interest_trigger": "학교·직장 필요",
+      "exception_note": "절약을 중시하지만 희귀 취미 상품에는 높은 가격을 수용할 수 있다."
+    },
+    {
+      "template_id": "persona_template_042",
+      "age_band": "50대 이상",
+      "life_stage": "사회초년생",
+      "housing_type": "원룸",
+      "occupation_context": "재택근무",
+      "primary_interests": [
+        "가구 및 인테리어"
+      ],
+      "secondary_interests": [
+        "패션"
+      ],
+      "current_short_need": "입학 준비",
+      "short_need_categories": [
+        "반려동물용품"
+      ],
+      "budget_style": "품질 우선형",
+      "decision_style": "신중형",
+      "negotiation_style": "묶음 협상형",
+      "active_hours": "점심시간",
+      "travel_range": "광역 이동 가능",
+      "selling_style": "묶음 정리형",
+      "outside_interest_trigger": "친구의 부탁",
+      "exception_note": "협상을 선호하지만 급한 구매에서는 제시 가격을 그대로 받아들인다."
+    },
+    {
+      "template_id": "persona_template_043",
+      "age_band": "10대 후반",
+      "life_stage": "영유아 양육",
+      "housing_type": "가족과 거주",
+      "occupation_context": "자영업",
+      "primary_interests": [
+        "패션"
+      ],
+      "secondary_interests": [
+        "공구",
+        "디지털기기"
+      ],
+      "current_short_need": "가족 부탁",
+      "short_need_categories": [
+        "스포츠 및 레저"
+      ],
+      "budget_style": "상황별 유동형",
+      "decision_style": "비교형",
+      "negotiation_style": "필요할 때만 제안",
+      "active_hours": "출근 전",
+      "travel_range": "인접 지역",
+      "selling_style": "빠른 정리형",
+      "outside_interest_trigger": "동네에서 가까워 확인",
+      "exception_note": "관심 카테고리라도 판매글 신뢰가 낮으면 아무 행동 없이 떠난다."
+    },
+    {
+      "template_id": "persona_template_044",
+      "age_band": "20대 초반",
+      "life_stage": "은퇴 후 생활",
+      "housing_type": "빌라",
+      "occupation_context": "사무직",
+      "primary_interests": [
+        "뷰티"
+      ],
+      "secondary_interests": [
+        "뷰티"
+      ],
+      "current_short_need": "이사 준비",
+      "short_need_categories": [
+        "생활가전"
+      ],
+      "budget_style": "균형형",
+      "decision_style": "후기 탐색형",
+      "negotiation_style": "거래 편의 우선형",
+      "active_hours": "시간 불규칙",
+      "travel_range": "택배 선호",
+      "selling_style": "설명 충실형",
+      "outside_interest_trigger": "선물 구매",
+      "exception_note": "충동적으로 조회해도 실제 구매 전에는 여러 번 다시 확인한다."
+    },
+    {
+      "template_id": "persona_template_045",
+      "age_band": "20대 후반",
+      "life_stage": "취업 준비",
+      "housing_type": "오피스텔",
+      "occupation_context": "구직 중",
+      "primary_interests": [
+        "스포츠 및 레저",
+        "가구 및 인테리어"
+      ],
+      "secondary_interests": [
+        "생활용품"
+      ],
+      "current_short_need": "연말 선물",
+      "short_need_categories": [
+        "공구"
+      ],
+      "budget_style": "한정 예산형",
+      "decision_style": "경험 의존형",
+      "negotiation_style": "정가 수용형",
+      "active_hours": "주말 중심",
+      "travel_range": "대중교통 30분",
+      "selling_style": "가격 유지형",
+      "outside_interest_trigger": "단순 구경",
+      "exception_note": "온라인 활동은 적지만 주말에 짧게 많은 상품을 탐색한다."
+    },
+    {
+      "template_id": "persona_template_046",
+      "age_band": "30대",
+      "life_stage": "신혼 생활",
+      "housing_type": "기숙사",
+      "occupation_context": "현장직",
+      "primary_interests": [
+        "취미 및 게임"
+      ],
+      "secondary_interests": [
+        "스포츠 및 레저",
+        "도서"
+      ],
+      "current_short_need": "생활비 마련을 위한 정리",
+      "short_need_categories": [
+        "취미 및 게임"
+      ],
+      "budget_style": "절약형",
+      "decision_style": "질문 확인형",
+      "negotiation_style": "가격 제안 적극형",
+      "active_hours": "심야",
+      "travel_range": "동네 안",
+      "selling_style": "협상 가능형",
+      "outside_interest_trigger": "제품 고장",
+      "exception_note": "주요 관심사와 무관한 상품도 선물 목적이면 오래 비교한다."
+    },
+    {
+      "template_id": "persona_template_047",
+      "age_band": "40대",
+      "life_stage": "이직 준비",
+      "housing_type": "공유주거",
+      "occupation_context": "교대 근무",
+      "primary_interests": [
+        "도서"
+      ],
+      "secondary_interests": [
+        "기타 일반 상품"
+      ],
+      "current_short_need": "새 직장 준비",
+      "short_need_categories": [
+        "가구 및 인테리어"
+      ],
+      "budget_style": "품질 우선형",
+      "decision_style": "충동형",
+      "negotiation_style": "묶음 협상형",
+      "active_hours": "저녁",
+      "travel_range": "광역 이동 가능",
+      "selling_style": "가끔 판매",
+      "outside_interest_trigger": "추천 피드 우연 노출",
+      "exception_note": "이동 범위가 좁지만 꼭 필요한 물건이면 먼 지역도 고려한다."
+    },
+    {
+      "template_id": "persona_template_048",
+      "age_band": "50대 이상",
+      "life_stage": "대학생",
+      "housing_type": "아파트",
+      "occupation_context": "은퇴 생활",
+      "primary_interests": [
+        "유아 및 아동용품"
+      ],
+      "secondary_interests": [
+        "취미 및 게임"
+      ],
+      "current_short_need": "겨울 생활 준비",
+      "short_need_categories": [
+        "생활용품"
+      ],
+      "budget_style": "상황별 유동형",
+      "decision_style": "신중형",
+      "negotiation_style": "필요할 때만 제안",
+      "active_hours": "점심시간",
+      "travel_range": "인접 지역",
+      "selling_style": "묶음 정리형",
+      "outside_interest_trigger": "가격이 매우 저렴해 확인",
+      "exception_note": "평소 중고 구매가 적어도 고장 교체 상황에서는 즉시 탐색한다."
+    },
+    {
+      "template_id": "persona_template_049",
+      "age_band": "10대 후반",
+      "life_stage": "1인 자취",
+      "housing_type": "원룸",
+      "occupation_context": "육아 중심",
+      "primary_interests": [
+        "반려동물용품"
+      ],
+      "secondary_interests": [
+        "디지털기기",
+        "생활가전"
+      ],
+      "current_short_need": "자취 시작",
+      "short_need_categories": [
+        "도서"
+      ],
+      "budget_style": "균형형",
+      "decision_style": "비교형",
+      "negotiation_style": "거래 편의 우선형",
+      "active_hours": "출근 전",
+      "travel_range": "택배 선호",
+      "selling_style": "빠른 정리형",
+      "outside_interest_trigger": "가족의 부탁",
+      "exception_note": "절약을 중시하지만 희귀 취미 상품에는 높은 가격을 수용할 수 있다."
+    },
+    {
+      "template_id": "persona_template_050",
+      "age_band": "20대 초반",
+      "life_stage": "학령기 자녀 양육",
+      "housing_type": "가족과 거주",
+      "occupation_context": "프리랜서",
+      "primary_interests": [
+        "공구"
+      ],
+      "secondary_interests": [
+        "도서"
+      ],
+      "current_short_need": "고장 난 물건 교체",
+      "short_need_categories": [
+        "패션"
+      ],
+      "budget_style": "한정 예산형",
+      "decision_style": "후기 탐색형",
+      "negotiation_style": "정가 수용형",
+      "active_hours": "시간 불규칙",
+      "travel_range": "대중교통 30분",
+      "selling_style": "설명 충실형",
+      "outside_interest_trigger": "일시적인 관심 변화",
+      "exception_note": "협상을 선호하지만 급한 구매에서는 제시 가격을 그대로 받아들인다."
+    }
+  ]
+}
