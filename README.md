@@ -49,7 +49,6 @@
 ```text
 carrot/
 ├── config/                 # 합성 데이터 생성 설정
-├── docs/                   # 최종 포트폴리오 PDF
 ├── generated/              # 합성 데이터와 실행 기록
 │   └── csv/                # 7개 테이블 CSV
 ├── notebooks/
