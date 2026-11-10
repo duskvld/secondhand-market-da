@@ -47,7 +47,7 @@
 ## 저장소 구성
 
 ```text
-carrot/
+secondhand-market-da/
 ├── config/                 # 합성 데이터 생성 설정
 ├── generated/              # 합성 데이터와 실행 기록
 │   └── csv/                # 7개 테이블 CSV
