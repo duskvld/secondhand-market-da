@@ -112,7 +112,6 @@ python src/export_tableau_data.py
 ## 주요 파일
 
 - [최종 분석 노트북](notebooks/DA_final.ipynb)
-- [최종 포트폴리오 PDF](docs/carrot_project_report.pdf)
 - [데이터 생성 보고서](reports/generation_report.json)
 - [분석 View SQL](sql/listing_funnel.sql)
 - [데이터 생성 파이프라인](src/run_pipeline.py)
