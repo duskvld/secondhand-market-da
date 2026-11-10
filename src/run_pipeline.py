@@ -1,4 +1,4 @@
-"""CARROT 본 데이터 생성·검증·선택적 MySQL 적재 파이프라인 진입점."""
+"""본 데이터 생성·검증·선택적 MySQL 적재 파이프라인 진입점."""
 
 from __future__ import annotations
 
@@ -126,7 +126,7 @@ def run_pipeline(refresh_llm: bool = False, skip_mysql: bool = False) -> int:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="CARROT 합성 데이터 파이프라인")
+    parser = argparse.ArgumentParser(description="중고거래 합성 데이터 파이프라인")
     parser.add_argument("--refresh-llm", action="store_true", help=".env의 OpenAI 설정으로 의미 자산을 다시 생성")
     parser.add_argument("--skip-mysql", action="store_true", help="MySQL 환경변수가 있어도 이번 실행에서는 적재하지 않음")
     args = parser.parse_args()
